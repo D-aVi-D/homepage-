@@ -7,6 +7,9 @@ body {
     line-height: 24px;
     background: url(images/noise.jpg);
 }
+.clear {
+    clear: both;
+}
 #page-wrap {
     width: 800px; margin: 40px auto 60px;
 }
@@ -33,4 +36,13 @@ a {
 a:hover {
     border-bottom-style: solid;
     color: black;
+}
+#objective {
+    width: 550px;
+    float: left;
+}
+#objective p {
+    font-family: Georgia, Serif;
+    font-style: italic;
+    color: #666;
 }
